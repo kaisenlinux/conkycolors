@@ -1,0 +1,19 @@
+Source: conkycolors
+Priority: standard
+Section: misc
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper, python-statgrab, python-keyring, ttf-ubuntu-font-family, hddtemp, curl, lm-sensors
+Homepage: https://kaisen-linux.org/kaisen
+
+Package: conkycolors
+Architecture: all
+Priority: standard
+Depends: python-statgrab,
+	 python-keyring,
+	 ttf-ubuntu-font-family,
+	 hddtemp,
+	 curl,
+	 lm-sensors,
+Replaces: kaisen-skeleton
+Description: Easiest conky configurator

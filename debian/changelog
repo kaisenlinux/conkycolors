@@ -1,0 +1,5 @@
+conkycolors (20200926-1kaisen1) kaisen-testing; urgency=medium
+
+  * Packaging conkycolors tool (replace packaging on kaisen-skeleton).
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 26 Sep 2020 15:42:58 +0200
