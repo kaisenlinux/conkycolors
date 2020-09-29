@@ -1,3 +1,9 @@
+conkycolors (20200929-1kaisen1) kaisen-packages; urgency=medium
+
+  * Remove change-prefix-makefile patch (developer merge custom git branch)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 29 Sep 2020 23:41:43 +0200
+
 conkycolors (20200926-1kaisen1) kaisen-testing; urgency=medium
 
   * Packaging conkycolors tool (replace packaging on kaisen-skeleton).
