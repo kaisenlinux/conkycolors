@@ -1,3 +1,19 @@
+conkycolors (20200929-2kaisen1) kaisen-packages; urgency=medium
+
+  * Remove dependancies:
+    - python-statgrab
+    - python-keyring
+    - ttf-ubuntu-font-family
+    - curl
+    - lm-sensors
+    - hddtemp
+  * Add recommends:
+    - conky-all
+  * Update control file
+  * Update compat to 13
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 10 Apr 2021 01:20:48 +0200
+
 conkycolors (20200929-1kaisen1) kaisen-packages; urgency=medium
 
   * Remove change-prefix-makefile patch (developer merge custom git branch)
