@@ -11,5 +11,6 @@ Vcs-Browser: https://gitlab.com/kaisenlinux/packages/conkycolors
 Package: conkycolors
 Architecture: all
 Priority: standard
+Depends: fonts-ubuntu-font-family-console
 Recommends: conky-all
 Description: Easiest conky configurator
