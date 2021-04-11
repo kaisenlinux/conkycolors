@@ -1,3 +1,10 @@
+conkycolors (20200929-4kaisen1) kaisen-packages; urgency=medium
+
+  * Adding dependancy:
+    - fonts-ubuntu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 11 Apr 2021 15:00:21 +0200
+
 conkycolors (20200929-3kaisen1) kaisen-packages; urgency=medium
 
   * Adding dependancy:
