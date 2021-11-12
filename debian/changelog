@@ -1,9 +1,9 @@
-conkycolors (20200929-4kaisen1) kaisen-packages; urgency=medium
+conkycolors (20200929-5kaisen) kaisen-packages; urgency=medium
 
-  * Adding dependancy:
-    - fonts-ubuntu
+  * Update homepage link
+  * Update Standards-Version number
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 11 Apr 2021 15:00:21 +0200
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 12 Nov 2021 19:28:51 +0200
 
 conkycolors (20200929-3kaisen1) kaisen-packages; urgency=medium
 

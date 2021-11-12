@@ -2,9 +2,9 @@ Source: conkycolors
 Priority: standard
 Section: misc
 Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Build-Depends: debhelper
-Homepage: https://kaisenlinux.org
+Homepage: https://github.com/helmuthdu/conky_colors
 Vcs-Git: https://gitlab.com/kaisenlinux/packages/conkycolors.git
 Vcs-Browser: https://gitlab.com/kaisenlinux/packages/conkycolors
 
@@ -14,4 +14,4 @@ Priority: standard
 Depends: fonts-ubuntu,
 	 fonts-ubuntu-font-family-console
 Recommends: conky-all
-Description: Easiest conky configurator
+Description: Easiest Conky configurator
