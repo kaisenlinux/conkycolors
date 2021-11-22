@@ -1,3 +1,10 @@
+conkycolors (20200929-7kaisen) kaisen-packages; urgency=medium
+
+  * Add patch to fix BTRFS snapshots mountpoint display or Docker BTRFS mountpoint
+    not display / in Conky
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 22 Nov 2021 14:33:31 +0200
+
 conkycolors (20200929-6kaisen) kaisen-packages; urgency=medium
 
   * Readd delete changelog
