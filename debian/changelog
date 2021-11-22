@@ -1,3 +1,9 @@
+conkycolors (20200929-8kaisen) kaisen-packages; urgency=medium
+
+  * Fix patch to display /run livesystem in live and improvements of patch
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 22 Nov 2021 18:44:49 +0200
+
 conkycolors (20200929-7kaisen) kaisen-packages; urgency=medium
 
   * Add patch to fix BTRFS snapshots mountpoint display or Docker BTRFS mountpoint

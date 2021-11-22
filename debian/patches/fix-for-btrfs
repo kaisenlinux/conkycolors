@@ -2,7 +2,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 
 --- conkycolors-20200929.orig/conkycolors/scripts/hdcommon.py
 +++ conkycolors-20200929/conkycolors/scripts/hdcommon.py
-@@ -5,24 +5,21 @@ from os.path import normpath, basename,
+@@ -5,24 +5,19 @@ from os.path import normpath, basename,
  from subprocess import Popen, PIPE
  
  def get_partitions():
@@ -12,16 +12,14 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 -    p_lsblk.stdout.close()
 -    p_awk.stdout.close()
 -    output = p_grep.communicate()[0]
-+    p_df = Popen(['df'], stdout=PIPE)
-+    p_awk = Popen(['awk', '{print $6}'], stdin=p_df.stdout, stdout=PIPE)
-+    p_df.stdout.close()
-+    output = p_awk.communicate()[0]
++    p_lsblk = Popen(['lsblk', '-o', 'MOUNTPOINTS'], stdout=PIPE)
++    output = p_lsblk.communicate()[0]
      for line in output.splitlines():
          device = line.rstrip().decode('utf-8')
          if not ismount(device):
              continue
 -        if device.startswith('/snap/') or device == '/boot/efi':
-+        if device.startswith(('/snap/', '/var/lib/docker/btrfs', '/boot/efi', '/dev', '/run', '/tmp/apt-btrfs-snapshot')):
++        if device.startswith(('/snap/', '/var/lib/docker/btrfs', '/boot/efi', '/run/timeshift', '/tmp/apt-btrfs-snapshot', '/usr/lib/live/mount')):
              continue
          if (device == "/"):
              yield device, "Root"
