@@ -1,3 +1,9 @@
+conkycolors (20200929-10kaisen) kaisen-packages; urgency=medium
+
+  * Add the exclusion for the /tmp/grub-btrfs directory
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 22 Apr 2022 14:42:33 +0100
+
 conkycolors (20200929-9kaisen) kaisen-packages; urgency=medium
 
   * Add postrm script to remove /usr/share/fonts/conkycolors directory when the

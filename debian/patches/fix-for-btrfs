@@ -19,7 +19,7 @@ Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
          if not ismount(device):
              continue
 -        if device.startswith('/snap/') or device == '/boot/efi':
-+        if device.startswith(('/snap/', '/var/lib/docker/btrfs', '/boot/efi', '/run/timeshift', '/tmp/apt-btrfs-snapshot', '/usr/lib/live/mount')):
++        if device.startswith(('/snap/', '/var/lib/docker/btrfs', '/boot/efi', '/run/timeshift', '/tmp/apt-btrfs-snapshot', '/usr/lib/live/mount', '/tmp/grub-btrfs')):
              continue
          if (device == "/"):
              yield device, "Root"
