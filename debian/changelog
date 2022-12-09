@@ -1,3 +1,10 @@
+conkycolors (20200929-11kaisen) kaisen-packages; urgency=medium
+
+  * Use the fonts-ubuntu-console package as dependancy
+    instead of fonts-ubuntu-font-family-console
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 09 Dec 2022 05:37:38 +0100
+
 conkycolors (20200929-10kaisen) kaisen-packages; urgency=medium
 
   * Add the exclusion for the /tmp/grub-btrfs directory
