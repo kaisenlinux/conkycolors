@@ -1,3 +1,9 @@
+conkycolors (20230722-1kaisen) kaisen-packages; urgency=medium
+
+  * The fix-for-btrfs patch is now included upstream
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 22 Jul 2023 18:32:19 +0100
+
 conkycolors (20200929-11kaisen) kaisen-packages; urgency=medium
 
   * Use the fonts-ubuntu-console package as dependancy
